@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mystic Floricultura</title>
+    <link rel="stylesheet" href="cod.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body style="margin:auto; width:1000px;">
+    <header>
+        <figure style="margin:0">
+            <div class="logo">
+                <a href="mystic.html"><img src="logotccc.jpeg" width="130" height="150" /></a>
+            </div>
+        </figure>
+        <hr>
+        <div class="faixa">
+            <section>
+                <div class="letras">
+                    <a href="buques.html">BUQUE DE FLORES</a> |
+                     <a href="flores.html">FLORES EM VASOS</a> |
+                        <a href="arranjos.html">ARRANJOS</a> |
+                         <a href="cestas.html">CESTAS</a> |
+                 </div>
+        </div>        
+        <hr>
+        <section class="container">
+            <div class="slide fade">
+                <div class="numeroslide">1/4</div>
+                <img class="imgslide" src="buques.png" width="50%" >
+                
+            </div>
+            <div class="slide fade">
+                <div class="numeroslide">2/4</div>
+                <img class="imgslide" src="arranjos.png" width="50%">
+                
+            </div>
+            <div class="slide fade">
+                <div class="numeroslide">3/4</div>
+                <img class="imgslide" src="flores.png" width="50%">
+                
+            </div>
+            <div class="slide fade">
+                <div class="numeroslide">4/4</div>
+                <img class="imgslide" src="mystic.png" width="50%">
+                
+            </div>
+                <a class="botaoA" onclick="mudarSlide(-1)">&lsaquo;</a>
+                <a class="botaoP" onclick="mudarSlide(1)">&rsaquo;</a>
+        </section>
+                <section style="text-align: center;">
+                    <span class="indicador" onclick="slideAtual(1)"></span>
+                    <span class="indicador" onclick="slideAtual(2)"></span>
+                    <span class="indicador" onclick="slideAtual(3)"></span>
+                    <span class="indicador" onclick="slideAtual(4)"></span>
+                </section>
+                <script type="text/javascript" src="teste.script.js"></script>
