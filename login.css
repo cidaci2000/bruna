@@ -9,8 +9,8 @@
 }
 
 body {
-    /*background:rgb(233, 224, 224);*/
-    background: url(day.jpg);
+    background:rgb(182, 161, 161);
+
     background-size:cover;
     background-repeat: no-repeat;
     min-height: 100vh;
